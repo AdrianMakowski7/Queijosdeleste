@@ -1,0 +1,120 @@
+.contenido1{
+  float: right;  
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  div{
+    float: left;
+    width: 50%;
+    height: 50%;
+    img{
+      width: 100%;
+      }
+  }
+}
+
+.img{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;   
+  cursor: pointer;
+  transition: all 0.3s ease;
+  &:hover{
+    filter: grayscale(1);
+    transform: scale(1.07);
+    h4{
+      opacity: 100;
+    }
+  }
+  h4{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    opacity: 0;
+    color: white;
+    text-shadow: black 0px 3px 3px;
+    transition: all 0.5s ease;
+    }
+}
+.img1{
+  background-image: url(../photos/Queijosx1.jpg);
+}
+.img2{
+  background-image: url(../photos/Queijosx2.jpg);
+}
+
+.img3{
+  background-image: url(../photos/Queijosx3.jpg);
+}
+.img4{
+  background-image: url(../photos/Queijosx4.jpg);
+}
+
+.logoqueijosindex {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 99;
+  width: 22%;
+  height: auto;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  left: 0;
+  bottom: 0;
+  position:absolute;
+  margin-left: 1%;
+  i{
+    margin-right: 0.5rem;
+    font-size: 2.5rem;
+  }
+  .fa-instagram{
+    color: white;
+  }
+  .fa-facebook{
+    color: white;
+  }
+}
+
+@media (max-width: 1025px){
+  .contenido1{  
+    div{
+      width: 100%;
+      height: 25%;
+    }
+  }
+  .img {
+    h4{
+    opacity: 100;
+    }
+  }
+  .icons {
+    display: none;
+  }
+}
+@media (max-width: 1025px) and (orientation: landscape) {
+  .img{
+    justify-content: left;  
+    }
+    h4{
+      opacity: 100;
+      padding-left: 50px;
+      font-size: 30px;
+  }
+  .logoqueijosindex {
+    top: 20px;
+    left: inherit;
+    right: 20px;
+    bottom: inherit;
+    margin: auto;
+    width: 20%;
+  }
+}

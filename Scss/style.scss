@@ -1,0 +1,24 @@
+@import 'header.scss';
+@import 'contain-inicio.scss';
+@import 'contain-contacto.scss';
+@import 'contain-empresa.scss';
+@import 'contain-ofertas.scss';
+
+
+@font-face {
+  font-family: Traveling;
+  src: url(../TIPOGRAFIA/TravelingTypewriter.ttf) format("opentype");
+  font-display: swap;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Traveling;
+}
+ 
+

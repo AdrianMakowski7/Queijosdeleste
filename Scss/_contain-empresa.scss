@@ -1,0 +1,36 @@
+
+.contmisionyvision{
+  float: right;
+  width: 85%;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(../photos/Empresaimg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  .opacity{
+    background-color: #000000cc;
+    min-height: 100vh;
+    margin: 0;
+    padding: 10px;
+  }
+  h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #bfbfbf;
+    font-size: 3rem;
+  }
+  h4{
+    text-align: center;
+    color: #bfbfbf;
+    font-size: 2rem;
+  }
+  p{
+    color: #bfbfbf;
+    display: flex;
+    margin: 20px;
+    text-align: left;
+    text-decoration-style: solid;
+    font-size: 1.1rem;
+  }
+}
