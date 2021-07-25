@@ -1,0 +1,27 @@
+.contpreparacion{
+  float: right;
+  width: 85%;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.card{
+  margin-left: 2px;
+  margin-right: 2px;
+  padding: 3px;
+  font-size: 20px;
+  background-image: url(../photos/desenfoque.png);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  .card-body{
+    padding: 2px;
+    .card-title{
+      font-size: 25px;
+      text-align: center;
+      font-weight: 800;
+    }
+  }
+}

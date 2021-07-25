@@ -29,7 +29,7 @@
         }
         li a:hover {
           background-color: rgb(177, 110, 22);
-          transform: scale(1.12);
+          transform: scale(1.1);
         }
     }
     .icons {
@@ -71,5 +71,9 @@
     width: 100% !important;
     height: auto !important;
   }
+  .bgoopacity{
+    display: block !important;
+  }
+
 }
 

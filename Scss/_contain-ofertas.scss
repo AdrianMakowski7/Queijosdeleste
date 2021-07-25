@@ -5,13 +5,16 @@
   background-size:cover;
   width: 85%;
   float: right;
-  height: 100vh;
   margin: 0;
   padding: 0;
 }
 
 .bgoopacity{
-  background-color: #00000060;
+  background-color: #000000cc;
+  min-height: 100vh;
+  margin: 0;
+  padding: 10px;
+  display: flex;
 }
 
 .carrusel{

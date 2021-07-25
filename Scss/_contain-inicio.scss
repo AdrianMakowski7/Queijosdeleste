@@ -71,10 +71,11 @@
   left: 0;
   bottom: 0;
   position:absolute;
-  margin-left: 1%;
+  margin-left: 1.5%;
+  margin-bottom: 0.5%;
   i{
-    margin-right: 0.5rem;
-    font-size: 2.5rem;
+    margin-right: 1rem;
+    font-size: 3.5rem;
   }
   .fa-instagram{
     color: white;
@@ -82,6 +83,22 @@
   .fa-facebook{
     color: white;
   }
+}
+
+.iconwsp {
+  display: flex;
+  justify-content: center;
+  right: 0;
+  bottom: 0;
+  position:absolute;
+  margin-right: 1.5%;
+  margin-bottom: 0.5%;
+    i{
+      font-size: 3.5rem;
+    }
+    .fa-whatsapp {
+      color: white;
+    }
 }
 
 @media (max-width: 1025px){

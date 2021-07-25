@@ -31,7 +31,7 @@
 }
 .barrainicio .navbar li a:hover {
   background-color: #b16e16;
-  transform: scale(1.12);
+  transform: scale(1.1);
 }
 .barrainicio .icons {
   display: flex;
@@ -72,6 +72,10 @@
   .contenedor {
     width: 100% !important;
     height: auto !important;
+  }
+
+  .bgoopacity {
+    display: block !important;
   }
 }
 .contenido1 {
@@ -150,16 +154,33 @@
   left: 0;
   bottom: 0;
   position: absolute;
-  margin-left: 1%;
+  margin-left: 1.5%;
+  margin-bottom: 0.5%;
 }
 .icons i {
-  margin-right: 0.5rem;
-  font-size: 2.5rem;
+  margin-right: 1rem;
+  font-size: 3.5rem;
 }
 .icons .fa-instagram {
   color: white;
 }
 .icons .fa-facebook {
+  color: white;
+}
+
+.iconwsp {
+  display: flex;
+  justify-content: center;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  margin-right: 1.5%;
+  margin-bottom: 0.5%;
+}
+.iconwsp i {
+  font-size: 3.5rem;
+}
+.iconwsp .fa-whatsapp {
   color: white;
 }
 
@@ -252,19 +273,50 @@
   background-size: cover;
   width: 85%;
   float: right;
-  height: 100vh;
   margin: 0;
   padding: 0;
 }
 
 .bgoopacity {
-  background-color: #00000060;
+  background-color: #000000cc;
+  min-height: 100vh;
+  margin: 0;
+  padding: 10px;
+  display: flex;
 }
 
 .carrusel {
   float: left;
   width: 50%;
   padding: 0;
+}
+
+.contpreparacion {
+  float: right;
+  width: 85%;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card {
+  margin-left: 2px;
+  margin-right: 2px;
+  padding: 3px;
+  font-size: 20px;
+  background-image: url(../photos/desenfoque.png);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.card .card-body {
+  padding: 2px;
+}
+.card .card-body .card-title {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 800;
 }
 
 @font-face {
